@@ -78,6 +78,8 @@ display: inline-block;
   font-size: 1.125em;
 }
 
+/* Sobre */
+
 .sobre{
  padding: 60px 0;
 }
@@ -123,4 +125,39 @@ display: inline-block;
   color: #fff;
   position:relative;
   top: -25px;
+}
+
+.sobre  p{
+  font-size: 1.125em;
+  line-height: 1.4em;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+/* Produtos */
+
+
+.produtos{
+  background: #e7e4d8;
+  padding: 60px 0;
+  border-top:  #d6d3d8 3px solid;
+  border-bottom:  #d6d3d8 3px solid;
+}
+
+.produtos-container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.produtos-container::before .produtos-container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.produtos-item{
+  width: 300px;
+  float: left;
 }
