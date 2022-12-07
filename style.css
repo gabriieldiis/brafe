@@ -211,3 +211,41 @@ a.produtos-btn{
   padding: 15px 0;
   margin: 20px auto 0 auto;
 }
+
+/* Locais */
+
+.local{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.local-item{
+  clear: both;
+  padding: 20px;
+  margin: 60px auto;
+}
+
+.local-item::after, .local-item::before{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.local-item img{
+  width: 460px;
+  float:  left;
+  display: block;
+  margin: 0 10px;
+}
+
+local-item > div{
+  width: 460px;
+  float:  left;
+  margin: 0 10px;
+}
+
+.local-item h2{
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
